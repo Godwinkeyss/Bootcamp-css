@@ -1,0 +1,132 @@
+h1{
+    font-size: 60px;
+    color:  rgb(0, 98, 255);
+    line-height: 10px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.divide{
+    margin-left: 150px;
+    margin-top: 230px;
+}
+
+.facebook{
+    font-size: 30px;
+    font-family: inherit;
+    color: #1c1e21;
+
+}
+#container{
+    width: 400px;
+    height: 380px;
+    border: none;
+    margin-left: 750px;
+    margin-top: 75px;
+    box-shadow: 5px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    bottom: 300px;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.email{
+    width: 353px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 13px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left: 14px;
+    border-width: 0.7px;
+    border:1px solid #dddfe2;
+}
+
+.password{
+    width: 353px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 13px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left: 14px;
+    margin-bottom: 10px;
+    border-width: 0.7px;
+    border:1px solid #dddfe2;
+
+}
+
+.login-btn{
+    width: 369px;
+    height: 52px;
+    margin-top: 15px;
+    margin-left: 13px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 14px;
+    margin-bottom: 14px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 7px;
+}
+
+.login-btn:hover{
+    background-color: #0b6ff1;
+}
+
+.paragraph1{
+    text-align: center;
+    color:  rgb(29, 102, 218);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.paragraph1:hover{
+    text-decoration:underline
+}
+
+.account-btn{
+margin-left: 90px;
+padding: 10px;
+font-family: inherit;
+width: 220px;
+cursor: pointer;
+border-radius: 5px;
+height: 50px;
+background-color: #42b72a;
+color: white;
+font-size: 18px;
+border: none;
+transition: background-color 0.1s;
+}
+
+.account-btn:hover{
+    background-color:  rgb(20, 169, 20);
+}
+
+hr{
+    width: 355px;
+    margin-bottom: 27px;
+}
+
+.paragraph2{
+    text-align: center;
+    position: relative;
+    margin-left: 10px;
+    top:50px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+
+
+
