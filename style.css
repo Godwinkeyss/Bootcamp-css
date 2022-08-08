@@ -4,29 +4,28 @@ h1{
     line-height: 10px;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
-
+ 
 .divide{
-    margin-left: 150px;
-    margin-top: 230px;
-}
+    margin-left: 162px;
+    margin-top: 180px;
+} 
 
 .facebook{
     font-size: 30px;
     font-family: inherit;
     color: #1c1e21;
+    margin-left: 3px;
 
 }
 #container{
     width: 400px;
     height: 380px;
     border: none;
-    margin-left: 750px;
-    margin-top: 75px;
     box-shadow: 5px;
     background-color: white;
     border-radius: 10px;
-    position: relative;
-    bottom: 300px;
+    margin-left: 121px;
+    margin-top: 118px;
     
 }
 
@@ -127,6 +126,85 @@ hr{
     font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
 }
 
+.parent{
+    display: flex;
+
+
+}
+
+
+/* @media (max-width: 992px) {
+  .parent {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  
+  #container {
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  .divide {
+    text-align: left;
+    margin-left: 85px;
+  }
+
+  h1 {
+    margin-left: 35px;
+  }
+  .facebook {
+    margin-right:2px;
+    font-size: 30px;
+  }
+} */
 
 
 
+
+@media (max-width: 600px) {
+    .parent {
+      display: flex;
+      
+    }
+    
+    #container {
+       align-items: center;
+    }
+  
+    .divide {
+      text-align: center;
+      margin-left: 85px;
+      align-items: center;
+    }
+  
+    h1 {
+      margin-left: 35px;
+    }
+    .facebook {
+      margin-right:2px;
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+  .parent{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+  }
+  .divide{
+    align-items: center;
+  }
+  #container{
+    align-items: center;
+  }
+  .facebook {
+    display: inline-flex;
+    text-align: center;
+  }
+
+    
+  
+  
+}
